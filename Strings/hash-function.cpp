@@ -9,7 +9,6 @@ typedef long long ll;
 const int P = 31;
 const ll MOD = 1e9 + 7;
 
-// вычисление хэша для строки за линию
 ll p_pow = 1;
 ll hashFromString(string s) {
 	ll hash = 0;
